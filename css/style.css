@@ -1,0 +1,149 @@
+h1,h2,h3{
+  font-family: agency-fb, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2{
+  font-size: 3em;
+}
+
+h3{
+  font-size: 1.75em;
+}
+
+p{
+  font-size: 1.25em;
+}
+
+header{
+  background-image: url("../img/hero-bg.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.form-control{
+  color: #717c82;
+}
+
+section{
+  margin: 10% auto;
+}
+
+.card{
+  color: white;
+  background-color: rgb(0,0,0,.7);
+}
+
+nav{
+  background-color: black;
+  font-family: agency-fb, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+nav .btn{
+  color: black !important;
+}
+
+nav .btn:hover{
+  color: white !important;
+  background: transparent !important;
+}
+
+i{
+  color:white;
+}
+
+.line{
+  border: 2px solid black;
+  width:100%
+}
+
+hr{
+  border-top: 1px solid black;
+}
+
+.btn{
+  border-radius: 0;
+  font-weight: bold;
+  font-family: agency-fb, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5em;
+}
+
+.btn:hover{
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.btn-dark{
+  background-color: black;
+}
+
+
+.btn-dark:hover{
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
+
+.box{
+  height: 100%;
+  width: 20%;
+  border: 1px solid black;
+}
+
+.box-right{
+  border-right: none;
+}
+
+.box-left{
+  border-left: none;
+}
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+footer a{
+  color: white;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: gray;
+}
+
+.form-control{
+  background-color: transparent;
+  border-radius: 0;
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  header{
+    background-size: 100%;
+  }
+}
